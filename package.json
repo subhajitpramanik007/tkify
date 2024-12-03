@@ -1,0 +1,14 @@
+{
+    "name": "tkify",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+    },
+    "keywords": [],
+    "author": "Subhajit Pramanik",
+    "license": "MIT",
+    "description": "Tkify - A fullstack project using Vite, React, Node.js, Express, and TypeScript.",
+    "devDependencies": {
+        "prettier": "^3.4.1"
+    }
+}
