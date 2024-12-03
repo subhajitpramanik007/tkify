@@ -23,6 +23,9 @@ app.get("/", (req, res) => {
 });
 
 // Routes
+import userRoutes from "./routes/user.routes.js";
+
+app.use("/api/v1/users", userRoutes);
 
 // Error handling
 import { errorMiddleware } from "./middleware/error.middleware.js";
