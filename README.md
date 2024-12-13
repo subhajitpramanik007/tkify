@@ -34,7 +34,7 @@ TKIFY is a real-time chat application built with **React**, **Vite**, **Express 
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/tkify.git
+   git clone https://github.com/subho-1011/tkify.git
    cd tkify
    ```
 
@@ -123,7 +123,7 @@ TKIFY is a real-time chat application built with **React**, **Vite**, **Express 
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/tkify.git
+    git clone https://github.com/subho-1011/tkify.git
     cd tkify
     ```
 
@@ -196,7 +196,7 @@ TKIFY is a real-time chat application built with **React**, **Vite**, **Express 
 
 ## Contributing
 
-We welcome contributions to improve TKIFY. If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your-username/tkify).
+We welcome contributions to improve TKIFY. If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request on the [GitHub repository](https://github.com/subho-1011/tkify.git).
 
 Happy Coding!
 Thank you for using TKIFY!
