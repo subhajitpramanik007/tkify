@@ -1,23 +1,19 @@
 {
-    "name": "tkify",
-    "version": "1.0.0",
-    "private": true,
-    "workspaces": [
-        "client",
-        "server"
-    ],
-    "scripts": {
-        "client": "cd client && npm run dev",
-        "server": "cd server && npm run dev",
-        "dev": "concurrently -n \"FRONTEND,BACKEND\" -c \"bgBlue,bgMagenta\" \"npm run client\" \"npm run server\"",
-        "format": "prettier --write \"client/**/*.{js,jsx,ts,tsx,css,html}\" \"server/**/*.{js,jsx,ts,tsx,json}\""
-    },
-    "keywords": [],
-    "author": "Subhajit Pramanik",
-    "license": "MIT",
-    "description": "Tkify - A fullstack project using Vite, React, Node.js, Express, and TypeScript.",
-    "devDependencies": {
-        "concurrently": "^9.1.0",
-        "prettier": "^3.4.1"
-    }
+  "name": "tkify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently -n \"FRONTEND,BACKEND\" -c \"bgBlue,bgMagenta\" \"npm run client\" \"npm run server\"",
+    "format": "prettier --write \"client/**/*.{js,jsx,ts,tsx,css,html}\" \"server/**/*.{js,jsx,ts,tsx,json}\""
+  },
+  "keywords": [],
+  "author": "Subhajit Pramanik",
+  "license": "MIT",
+  "description": "Tkify - A fullstack project using Vite, React, Node.js, Express, and TypeScript.",
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "prettier": "^3.4.1"
+  }
 }
